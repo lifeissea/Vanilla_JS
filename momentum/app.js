@@ -1,1 +1,1 @@
-alert("hi");
+console.log("버그발견");
