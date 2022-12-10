@@ -7,36 +7,64 @@
       href="https://nomadcoders.co/m.png"
     />
 
-    <title>Home - My first website.</title>
-    <meta name="description" content="This is my websit" />
+    <title>Create An Account</title>
+    <meta name="description" content="This is cocoa clone challenge" />
     <meta charset="utf-8" />
   </head>
   <body>
     <header>
-      <h1>Nice times</h1>
+      <h1>Create An Account</h1>
     </header>
-    <main>
-      <span>short paragraph</span>
-      <p>long paragraph</p>
-      <address>123 Road Newyork</address>
-    </main>
-    <footer>&copy; 2022 KYM.</footer>
     <form>
       <div>
-        <label for="website">Website</label>
-        <input id="website" required placeholder="Website" type="url" />
-        <input type="submit" value="Create Account" />
+        <div>
+          <label for="name">First name</label>
+          <input id="name" required placeholder="First name" type="text" /></br>
+        </div>
+        <div>
+          <label for="last_name">Last name</label>
+          <input id="last_name" required placeholder="Last name" type="text" />
+        </div>
+        <div>
+          <label for="e-mail">Email</label>
+          <input id="e-mail" required placeholder="Email" type="email" />
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input id="username" required placeholder="Username" type="text" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            id="password"
+            required
+            placeholder="Password"
+            type="password"
+            minlength="10"
+          />
+        </div>
+        <div>
+          <label for="btd">Birth data</label>
+          <input id="btd" required placeholder="Birth data" type="date" />
+        </div>
+        <div>
+          <label for="happy_counter">How happy are you?</label>
+          <input
+            id="happy_counter"
+            name="How happy are you?"
+            type="range"
+            min="0"
+            max="10"
+          />
+        </div>
+        <div>
+          <label for="color">What's your fav color?</label>
+          <input id="color" name="What's your fav color?" type="color"/>
+        </div>
+        <div>
+          <input type="submit" value="Create Account" />
+        </div>
       </div>
-      <input type="file" accept=".pdf" />
-      <input required placeholder="Name" type="text" />
-      <input required placeholder="Last Name" type="text" />
-      <input required placeholder="Username" type="text" />
-      <input required placeholder="Password" minlength="8" type="password" />
-      <input type="submit" value="Create Account" />
     </form>
-    <h1>Hello</h1>
-    <p>blablalabalblallball</p>
-    <pre>blablablabla</pre>
-    <p>My name is <abbr title="KIM YEO MYEONG">NSA</abbr></p>
   </body>
 </html>
