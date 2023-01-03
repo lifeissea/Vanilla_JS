@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Rubik+80s+Fade&display=swap");
+
+.hidden {
+  display: none;
+}
+
+.header {
+  font-family: "Rubik 80s Fade", cursive;
+  font-size: 40px;
+  font-weight: 400;
+}
+.enter-num {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.span-1 {
+  font-family: "Atkinson Hyperlegible", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.choice-num {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.span-2 {
+  font-family: "Atkinson Hyperlegible", cursive;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.btn-num {
+  margin: 0 0.3rem;
+}
+
+.choice-num {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#result-meg {
+  font-family: "Atkinson Hyperlegible", cursive;
+  font-size: 20px;
+  font-weight: normal;
+}
+.msg span {
+  font-family: "Atkinson Hyperlegible", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
